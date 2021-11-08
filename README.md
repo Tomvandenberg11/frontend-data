@@ -1,6 +1,6 @@
 # Repo naam
 
-Welkom bij mijn project van functional programming. 
+Welkom bij mijn project van functional programming.
 BESCHRIJVING
 
 De website is [hier](#LINK HIER) te zien.
