@@ -1,0 +1,59 @@
+path:nth-child(odd) {
+    /*animation: disco 5s ease-in-out infinite;*/
+}
+
+path:nth-child(even) {
+    /*animation: discoRevert 5s ease infinite;*/
+}
+
+@keyframes disco {
+    0% { fill: orangered; }
+    25% { fill: darkblue; }
+    50% { fill: orangered; }
+    75% { fill: darkblue; }
+    100% { fill: orangered; }
+}
+
+@keyframes discoRevert {
+    0% { fill: rebeccapurple; }
+    25% { fill: forestgreen; }
+    50% { fill: rebeccapurple; }
+    75% { fill: forestgreen; }
+    100% { fill: rebeccapurple; }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
