@@ -1,0 +1,15 @@
+body {
+    width: 1200px;
+    margin: 25px auto;
+    font-family: 'Raleway', sans-serif;
+}
+rect {
+    fill: indianred;
+    fill-opacity: 0.8;
+}
+rect:hover {
+    fill-opacity: 1;
+}
+.axis {
+    font-size: smaller;
+}

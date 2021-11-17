@@ -1,9 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+Bar chart/node_modules
+Bar chart/.pnp
+Bar chart/.pnp.js
+Bar chart/.idea/*
+
+World map/node_modules
+World map/.pnp
+World map/.pnp.js
+World map/.idea/*
+
 .idea/*
 
 # testing
