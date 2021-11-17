@@ -1,7 +1,8 @@
-# Repo naam
+# Functional Programming
 
 Welkom bij mijn project van functional programming.
-BESCHRIJVING
+
+Het is de opdracht om een interactieve D3 grafiek te maken, welke werkt met update, enter en remove. Ik heb gekozen voor een barchart met de top 10 landen met de meeste inwoners. Deze kunnen gefilterd worden op continent.
 
 De website is [hier](#LINK HIER) te zien.
 
