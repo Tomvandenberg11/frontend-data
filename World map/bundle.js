@@ -26,13 +26,6 @@
       return accumulator;
     }, {});
 
-    /*
-    const countryName = {};
-    tsvData.forEach(d => {
-      countryName[d.iso_n3] = d.name;
-    });
-    */
-
     const countries = topojson.feature(topoJSONdata, topoJSONdata.objects.countries);
     g.selectAll('path').data(countries.features)
       .enter().append('path')
