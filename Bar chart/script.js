@@ -10,7 +10,6 @@ const numFormatter = (num) => { // refactoring numbers
   }
 }
 
-
 // Creating SVG element in body
 const svg = d3.select('body').append('svg')
   .attr('width', width+margin.left+margin.right)
