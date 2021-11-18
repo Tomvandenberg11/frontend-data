@@ -2,14 +2,59 @@ body {
     width: 1200px;
     margin: 25px auto;
     font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
 }
+
 rect {
-    fill: indianred;
-    fill-opacity: 0.8;
+    fill: lightgrey;
 }
 rect:hover {
     fill-opacity: 1;
 }
 .axis {
     font-size: smaller;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 4em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 30vh;
+    align-items: center;
+}
+
+.container ul li {
+    list-style-type: none;
+    font-size: 2em;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    border: 4px solid indianred;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    transition: .5s;
+}
+
+.container ul li a:hover {
+    border: 4px solid lightblue;
+    background-color: indianred;
 }
